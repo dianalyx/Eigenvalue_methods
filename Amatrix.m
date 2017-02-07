@@ -8,7 +8,7 @@ K1 = 2*diag(diag(ones(n)));
 K2 = -1*diag(diag(ones(n-1)),1);
 K3 = -1*diag(diag(ones(n-1)),-1);
 K = K3+K1+K2;
-K3(end,end) = 1;
+K(end,end) = 1;
 K = (1/h)*K;
 
 M1 = 4*diag(diag(ones(n)));
