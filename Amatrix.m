@@ -1,7 +1,7 @@
 clear;
 %construct matrix
 %n = 20,40,80,200
-n = 40;
+n = 200;
 h = 1/n;
 
 K1 = 2*diag(diag(ones(n)));
